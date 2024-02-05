@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    border: 5px solid;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: gray;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    transition: background-color .5s;
+    transition: color .5s;
+    background-color: gray;
+    color: red;
+}
+
+#winnerMessage {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block
+}
